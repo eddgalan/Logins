@@ -1,0 +1,26 @@
+.div_main{
+  height: 100vh;
+  background-image: url('../img/background_blue_01.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;"
+}
+
+.btn-primary{
+  font-size: 12px;
+  border-radius: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100%;
+  background-color: #063741 !important;
+}
+#btn_login{
+  background-color: #0AABCA !important;
+}
+hr{
+  display: block; height: 1px;
+  border: 0; border-top: 1px solid #063741;
+  margin: 1em 0; padding: 0;
+}

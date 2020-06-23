@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>let's Use - Login</title>
+  <link rel="icon" href="" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container-fluid div_main">
+    <div class="row h-100">
+      <!-- Formulario login -->
+      <div class="col-md-5 mx-auto">
+        <div class="col-md-8 mx-auto" style="width:100%; margin-top:65px;">
+          <div class="card col-md-12" style="padding-right:-15px;">
+            <div class="card-body">
+              <div class="text-center">
+                <img src="img/logo.jpg" class="img-fluid">
+              </div>
+              <form action="login" method="post">
+                <div class="form-group">
+                    <label for="username">Username: </label>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                          <div class="input-group-text">
+                              <i class="fa fa-user"></i>
+                          </div>
+                      </div>
+                      <input id="username" type="text" class="form-control" name="username" tabindex="1" placeholder="username">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="d-block">
+                        <label for="password" class="control-label">Password: </label>
+                        <div class="input-group">
+                          <div class="input-group-prepend">
+                              <div class="input-group-text">
+                                  <i class="fa fa-lock"></i>
+                              </div>
+                          </div>
+                          <input id="password" type="password" class="form-control" name="password" tabindex="2" placeholder="********">
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                  <button type="submit" id="btn_login" name="btn_login" class="btn btn-primary" tabindex="4">
+                      Login
+                  </button>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <button type="submit" id="btn_how" name="btn_how"class="btn btn-primary" tabindex="5">
+                        How to login
+                    </button>
+                  </div>
+                  <div class="col-md-6">
+                    <button type="submit" id="btn_request" name="btn_request"class="btn btn-primary" tabindex="6">
+                        Request Login
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+</html>
